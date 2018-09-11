@@ -1,0 +1,31 @@
+ body {
+    background-image: url(imgs/counter.jpg);
+    height: 100%;
+    width: 100%;
+} 
+
+h1, form {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+a {
+    color: rgb(48, 4, 4);
+} 
+
+.border {
+    border: solid 3px rgb(48, 4, 4);
+    margin: 5px;
+    
+}
+
+
+
+
+
